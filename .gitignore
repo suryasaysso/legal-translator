@@ -1,0 +1,17 @@
+# Virtual Environment
+.tos_translator/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Local Database (ChromaDB) due to huge size
+chroma_db/
+
+# Data folder (PDFs)
+data/
+
+# Environment Variables (Very Important!)
+.env

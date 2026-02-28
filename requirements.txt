@@ -1,0 +1,18 @@
+# --- Core RAG Framework ---
+langchain>=1.2.10
+langchain-community>=0.4.1
+langchain-ollama>=0.2.0        # Optimized for local Ollama/DeepSeek
+langchain-core>=1.2.16
+langchain-text-splitters>=0.3.0
+
+# --- Database & Storage ---
+chromadb==0.5.23               # Stable version with pre-built wheels for 3.13
+pypdf>=5.1.0                   # Standard PDF parser
+
+# --- User Interface ---
+streamlit>=1.42.0              # Stable for local hosting
+
+# --- Utilities ---
+python-dotenv>=1.0.1           # Manage environment variables
+pydantic>=2.10.0               # Data validation
+
